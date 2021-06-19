@@ -3,7 +3,7 @@ rm(list = ls())
 cat("\f")
 
 # importing the data set and problem question
-df <- read.csv("N:/Studies MBA/internship/Selected/TheSparksFoundation/studyhrs.csv", header = TRUE)
+df <- read.csv("./studyhrs.csv", header = TRUE)
 GivenQuestion <- data.frame(Hours=9.25)
 
 # checking for Outlier and missing values
